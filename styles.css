@@ -323,8 +323,11 @@ nav {
 
     .primary-navigation {
         align-items: center;
+        justify-content: flex-start;
         gap: 2rem;
+        position: relative;
         width: 100%;
+        
     }
 
     .nav-btns {
@@ -372,7 +375,7 @@ nav {
     .learn-more-btn {
         margin-bottom: 5rem;
     }
-
+   
     .dropdown-content{
         align-items: center;
         background-color: white;
@@ -381,10 +384,10 @@ nav {
         flex-direction: column;
         gap: 2rem;
         justify-content: center;
-        left: 6rem;
+        left: -3rem;
         padding: 1.5rem;
         position: absolute;
-        top: 5rem;
+        top: 3rem;
         z-index: 1000;
     }
    
@@ -392,10 +395,10 @@ nav {
         background-color: white;
         border-radius: 5px;
         box-shadow: 1px 0px 3px 0px hsl(0 0% 20% / .6);
-        left: 17rem;
+        left: 8rem;
         padding: 1.5rem;
         position: absolute;
-        top: 5rem;
+        top: 3rem;
         z-index: 1000;
     }
     .client-logos {
